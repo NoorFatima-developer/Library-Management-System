@@ -1,0 +1,14 @@
+
+
+
+<script>
+    var dummyReceivedJson='{"name":"ali","email":"ali@pucit.edu.pk"}';
+	var demoObj=JSON.parse(dummyReceivedJson);
+	document.getElementId("demoList").innerHTML = "<li>" + demoObj.email +
+	"</li><li>"+ demoObj.name +"</li>";
+</script>
+
+
+if 
+var dummyReceivedJson='{"name":["waqas","riaz"]}';
+demoObj.name[0] + demoObj.name[1]
